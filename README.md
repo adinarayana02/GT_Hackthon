@@ -11,7 +11,7 @@ Brands often spend weeks manually designing variations of marketing creatives.
 The AI Auto-Creative Engine automates this entire workflow:
 - Upload a logo + product image
 - Automatically generate 10+ ad creative prompts
-- Generate high-quality AI ad images using DALL·E 3 / SDXL
+- Generate high-quality AI ad images using DALL·E 3
 - Produce matching marketing captions using GPT
 - Export a ZIP containing images + captions
 
@@ -188,18 +188,6 @@ Unit tests using pytest:
 pytest tests/
 ```
 **Coverage:** Prompt generation, caption generation, image pipeline, ZIP packager.
-
----
-
-## Future Enhancements
-- Multi-language caption generation
-- Brand style learning from previous creatives
-- A/B testing caption generator
-- Custom SDXL fine-tuning
-- Template-based design mixing
-- Auto-layout with product positioning
-
----
 
 ##  Why This Solution Stands Out
 - 100% automated creative pipeline
