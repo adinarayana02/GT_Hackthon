@@ -16,7 +16,6 @@ from src.utils.logger import get_logger
 
 logger = get_logger()
 
-
 def main():
     """Main CLI entry point."""
     parser = argparse.ArgumentParser(
