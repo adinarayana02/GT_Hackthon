@@ -75,14 +75,6 @@ auto_creative_engine/
 │   ├── pipeline/
 │   ├── services/
 │   └── utils/
-│
-├── webapp/
-│   ├── ui.py
-│   ├── pages/
-│   ├── assets/
-│   └── styles.css
-│
-└── tests/
 ```
 
 ---
