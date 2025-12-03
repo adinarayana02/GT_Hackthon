@@ -122,7 +122,7 @@ auto_creative_engine/
           v
 +-----------------------------+
 | Image Generation            |
-| (DALL·E 3 / SDXL)           |
+| (DALL·E 3 )                 |
 +-----------------------------+
           |
           v
