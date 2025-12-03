@@ -1,0 +1,18 @@
+Generate a compelling social media ad caption for this creative.
+
+Product: {product}
+Brand: {brand}
+Tone: {tone}
+Style: {style}
+
+Requirements:
+- Engaging and attention-grabbing
+- Suitable for social media (Instagram, Facebook, Twitter)
+- Include a call-to-action
+- Match the brand tone
+- Maximum {max_length} characters
+- Use emojis sparingly (1-2 max)
+- Be concise and impactful
+
+Generate ONLY the caption text.
+
