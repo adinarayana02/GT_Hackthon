@@ -6,7 +6,7 @@
 
 ---
 
-## 1. Overview
+##  Overview
 Brands often spend weeks manually designing variations of marketing creatives.  
 The AI Auto-Creative Engine automates this entire workflow:
 - Upload a logo + product image
@@ -19,7 +19,7 @@ This system demonstrates end-to-end automation of marketing content creation usi
 
 ---
 
-## 2. Key Features
+## Key Features
 ### Core AI Capabilities
 - LLM-powered prompt generation
 - GPT-created advertising captions
@@ -41,14 +41,14 @@ This system demonstrates end-to-end automation of marketing content creation usi
 
 ---
 
-## 3. Tech Stack
+## Tech Stack
 - **Languages & Frameworks:** Python 3.10+, Streamlit (Frontend UI)
 - **AI Models & APIs:** OpenAI GPT-4o/GPT-4.1 (prompt/caption generation), DALL·E 3 (image generation), SDXL & ControlNet (optional)
 - **Libraries:** openai, dotenv, Pillow, streamlit
 
 ---
 
-## 4. Project Structure
+## Project Structure
 
 ```bash
 auto_creative_engine/
@@ -87,7 +87,7 @@ auto_creative_engine/
 
 ---
 
-## 5. Installation
+## Installation
 
 1. **Clone the Repo**
     ```bash
@@ -112,7 +112,7 @@ auto_creative_engine/
 
 ---
 
-## 6. How It Works (Architecture)
+## How It Works (Architecture)
 
 ### High-Level Pipeline
 ```
@@ -146,7 +146,7 @@ auto_creative_engine/
 
 ---
 
-## 7. Workflow Explanation
+## Workflow Explanation
 1. **Upload Inputs:** Brand logo and product image.
 2. **Generate Prompts:** GPT-4o generates 10+ creative prompts (lighting, composition, background, brand colors, seasonal themes).
 3. **Generate Images:** DALL·E receives prompts and product details to produces high-quality ad creatives.
@@ -155,7 +155,7 @@ auto_creative_engine/
 
 ---
 
-## 8. Running the Application
+## Running the Application
 
 **Streamlit UI**
 ```bash
@@ -170,7 +170,7 @@ python engine.py
 
 ---
 
-## 9. Output Format
+## Output Format
 Example ZIP structure:
 ```
 creatives.zip
@@ -190,7 +190,7 @@ creatives.zip
 
 ---
 
-## 10. Testing
+##  Testing
 Unit tests using pytest:
 ```
 pytest tests/
@@ -199,7 +199,7 @@ pytest tests/
 
 ---
 
-## 11. Future Enhancements
+## Future Enhancements
 - Multi-language caption generation
 - Brand style learning from previous creatives
 - A/B testing caption generator
@@ -209,7 +209,7 @@ pytest tests/
 
 ---
 
-## 12. Why This Solution Stands Out
+##  Why This Solution Stands Out
 - 100% automated creative pipeline
 - High-quality imagery
 - Brand-consistent content
